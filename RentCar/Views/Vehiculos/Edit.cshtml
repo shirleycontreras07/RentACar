@@ -1,0 +1,97 @@
+﻿@model RentCar.Models.RentCarModels.Vehiculo
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Vehiculo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdVehiculo" />
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumChasis" class="control-label"></label>
+                <input asp-for="NumChasis" class="form-control" />
+                <span asp-validation-for="NumChasis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumPlaca" class="control-label"></label>
+                <input asp-for="NumPlaca" class="form-control" />
+                <span asp-validation-for="NumPlaca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdTipoVehiculo" class="control-label"></label>
+                <select asp-for="IdTipoVehiculo" class="form-control" asp-items="ViewBag.IdTipoVehiculo"></select>
+                <span asp-validation-for="IdTipoVehiculo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdMarca" class="control-label"></label>
+                <select asp-for="IdMarca" class="form-control" asp-items="ViewBag.IdMarca"></select>
+                <span asp-validation-for="IdMarca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdModelo" class="control-label"></label>
+                <select asp-for="IdModelo" class="form-control" asp-items="ViewBag.IdModelo"></select>
+                <span asp-validation-for="IdModelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdTipoCombustible" class="control-label"></label>
+                <select asp-for="IdTipoCombustible" class="form-control" asp-items="ViewBag.IdTipoCombustible"></select>
+                <span asp-validation-for="IdTipoCombustible" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Estado" /> @Html.DisplayNameFor(model => model.Estado)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+            var idModelo = $("#IdModelo");
+            var idMarca = $("#IdMarca");
+            //Insert default item "Select" in dropdownlist on load
+            //$(document).ready(function () {
+            //    var items = "<option value='0'>Selecciona</option>";
+            //    idModelo.html(items);
+            //});
+
+            //Bind City dropdownlist
+            idMarca.change(function (event) {
+                var marcaId = event.target.value;
+                var url = "/Vehiculos/GetModeloList";
+
+                $.getJSON(url, { MarcaId : marcaId }, function (data) {
+                    var item = "";
+                    idModelo.empty();
+                    $.each(data, function (i, Modelo) {
+                        item += '<option value="' + Modelo.value + '">' + Modelo.text + '</option>'
+                    });
+                    idModelo.html(item);
+                });
+            });
+    </script>
+
+}

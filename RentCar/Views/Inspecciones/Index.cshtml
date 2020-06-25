@@ -1,0 +1,117 @@
+﻿@model IEnumerable<RentCar.Models.RentCarModels.Inspeccion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Inspecciones</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-info navbar-btn">Create New</a>
+</p>
+<form method="get">
+    <input type="text" id="Criterio" name="Criterio" />
+    <input type="submit" id="cmdBuscar" value="Buscar" />
+</form>
+<table class="table table-hover table-striped table-condensed">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ralladura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GomaRepuesta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gato)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RoturaCristal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrimeraGoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SegundaGoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TerceraGoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CuartaGoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadCombustible)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Empleado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ralladura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GomaRepuesta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gato)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoturaCristal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrimeraGoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SegundaGoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TerceraGoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CuartaGoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadCombustible)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vehiculo.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empleado.Nombre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdTransaccion">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdTransaccion">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdTransaccion">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

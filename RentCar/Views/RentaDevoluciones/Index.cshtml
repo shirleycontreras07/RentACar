@@ -1,0 +1,96 @@
+﻿@model IEnumerable<RentCar.Models.RentCarModels.RentaDevolucion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-info navbar-btn">Create New</a>
+    <a asp-action="exportaAExcel" class="btn btn-info navbar-btn">Exporta a Excel</a>
+</p>
+<form method="get">
+    <input type="text" id="Criterio" name="Criterio" />
+    <input type="submit" id="cmdBuscar" value="Buscar" />
+    
+</form>
+<table class="table table-condensed table-hover table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Empleado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdInspeccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaRenta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDevolucion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontoDiario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadDias)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comentario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empleado.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdInspeccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vehiculo.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaRenta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDevolucion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontoDiario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadDias)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comentario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.Nombre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdRenta">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdRenta">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdRenta">Eliminar</a>
+                <a asp-controller="RentaDevoluciones" asp-action="Return"  asp-route-id="@item.IdRenta">Devolver</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

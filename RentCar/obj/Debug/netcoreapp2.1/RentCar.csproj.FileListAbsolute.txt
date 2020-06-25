@@ -1,0 +1,182 @@
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.deps.json
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.runtimeconfig.json
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.runtimeconfig.dev.json
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.dll
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.csprojAssemblyReference.cache
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.csproj.CoreCompileInputs.cache
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorAssemblyInfo.cache
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorAssemblyInfo.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.AssemblyInfoInputs.cache
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.AssemblyInfo.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.TagHelpers.input.cache
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.TagHelpers.output.cache
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorCoreGenerate.cache
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorTargetAssemblyInfo.cache
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorTargetAssemblyInfo.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.pdb
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.Views.dll
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.Views.pdb
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.Views.pdb
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.dll
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.pdb
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.csproj.CopyComplete
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.deps.json
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.runtimeconfig.json
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.runtimeconfig.dev.json
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.dll
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.pdb
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.Views.dll
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\bin\Debug\netcoreapp2.1\RentCar.Views.pdb
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.csprojAssemblyReference.cache
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.csproj.CoreCompileInputs.cache
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorAssemblyInfo.cache
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorAssemblyInfo.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.AssemblyInfoInputs.cache
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.AssemblyInfo.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.TagHelpers.input.cache
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.TagHelpers.output.cache
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorCoreGenerate.cache
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Empleados\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Inspecciones\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Marcas\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Modelos\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\RentaDevoluciones\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Tandas\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoCombustibles\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoPersonas\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\TipoVehiculos\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Create.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Delete.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Details.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Edit.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Index.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorTargetAssemblyInfo.cache
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorTargetAssemblyInfo.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.Views.pdb
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.dll
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.pdb
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.csproj.CopyComplete
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutTemplate.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial - Copia.g.cshtml.cs
+C:\Users\Shirley Contreras\Desktop\Cuatrimestre Mayo-Agosto 2020\Propietaria\RentCar\RentCar\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

@@ -1,0 +1,78 @@
+﻿@model RentCar.Models.RentCarModels.RentaDevolucion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>RentaDevolucion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Empleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Empleado.Nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IdInspeccion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IdInspeccion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehiculo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Vehiculo.Descripcion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaRenta)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FechaRenta)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaDevolucion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FechaDevolucion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MontoDiario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MontoDiario)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CantidadDias)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CantidadDias)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Comentario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Comentario)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cliente)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cliente.Nombre)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdRenta">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

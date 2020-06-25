@@ -1,0 +1,107 @@
+﻿@model RentCar.Models.RentCarModels.RentaDevolucion
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Renta Devolucion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdRenta" />
+            <div class="form-group">
+                <label asp-for="IdCliente" class="control-label"></label>
+                <select asp-for="IdCliente" class="form-control" asp-items="ViewBag.IdCliente"></select>
+                <span asp-validation-for="IdCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdEmpleado" class="control-label"></label>
+                <select asp-for="IdEmpleado" class="form-control" asp-items="ViewBag.IdEmpleado"></select>
+                <span asp-validation-for="IdEmpleado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdVehiculo" class="control-label"></label>
+                <select asp-for="IdVehiculo" class="form-control" asp-items="ViewBag.IdVehiculo"></select>
+                <span asp-validation-for="IdVehiculo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdInspeccion" class="control-label"></label>
+                <select asp-for="IdInspeccion" class="form-control" asp-items="ViewBag.IdInspeccion"></select>
+                <span asp-validation-for="IdInspeccion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FechaRenta" class="control-label"></label>
+                <input asp-for="FechaRenta" class="form-control" />
+                <span asp-validation-for="FechaRenta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaDevolucion" class="control-label"></label>
+                <input asp-for="FechaDevolucion" class="form-control" />
+                <span asp-validation-for="FechaDevolucion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MontoDiario" class="control-label"></label>
+                <input asp-for="MontoDiario" class="form-control" />
+                <span asp-validation-for="MontoDiario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CantidadDias" class="control-label"></label>
+                <input asp-for="CantidadDias" class="form-control" />
+                <span asp-validation-for="CantidadDias" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comentario" class="control-label"></label>
+                <input asp-for="Comentario" class="form-control" />
+                <span asp-validation-for="Comentario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Estado" /> @Html.DisplayNameFor(model => model.Estado)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+            var idVehiculo = $("#IdVehiculo");
+            var idInspeccion = $("#IdInspeccion");
+            //Insert default item "Select" in dropdownlist on load
+            //$(document).ready(function () {
+            //    var items = "<option value='0'>Selecciona</option>";
+            //    idModelo.html(items);
+            //});
+
+            //Bind dropdownlist
+            idVehiculo.change(function (event) {
+                var vehiculoId = event.target.value;
+                var url = "/RentaDevoluciones/GetInspeccionList";
+
+                $.getJSON(url, { VehiculoId : vehiculoId }, function (data) {
+                    var item = "";
+                    idInspeccion.empty();
+                    $.each(data, function (i, Inspeccion) {
+                        item += '<option value="' + Inspeccion.value + '">' + Inspeccion.text + '</option>'
+                    });
+                    idInspeccion.html(item);
+                });
+            });
+    </script>
+}

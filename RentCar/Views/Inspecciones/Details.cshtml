@@ -1,0 +1,102 @@
+﻿@model RentCar.Models.RentCarModels.Inspeccion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Inspeccion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ralladura)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ralladura)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GomaRepuesta)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GomaRepuesta)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Gato)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Gato)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RoturaCristal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RoturaCristal)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimeraGoma)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PrimeraGoma)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SegundaGoma)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SegundaGoma)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TerceraGoma)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TerceraGoma)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CuartaGoma)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CuartaGoma)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CantidadCombustible)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CantidadCombustible)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehiculo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Vehiculo.Descripcion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cliente)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cliente.Nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Empleado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Empleado.Nombre)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdTransaccion">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

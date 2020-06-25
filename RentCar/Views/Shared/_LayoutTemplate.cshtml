@@ -1,0 +1,697 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--=== Favicon ===-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>Cardoor - RentaCar Shirley</title>
+
+    <!--=== Bootstrap CSS ===-->
+    <link href="~/template/assets/css/bootstrap.min.css" rel="stylesheet">
+    <!--=== Slicknav CSS ===-->
+    <link href="~/template/assets/css/plugins/slicknav.min.css" rel="stylesheet">
+    <!--=== Magnific Popup CSS ===-->
+    <link href="~/template/assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <!--=== Owl Carousel CSS ===-->
+    <link href="~/template/assets/css/plugins/owl.carousel.min.css" rel="stylesheet">
+    <!--=== Gijgo CSS ===-->
+    <link href="~/template/assets/css/plugins/gijgo.css" rel="stylesheet">
+    <!--=== FontAwesome CSS ===-->
+    <link href="~/template/assets/css/font-awesome.css" rel="stylesheet">
+    <!--=== Theme Reset CSS ===-->
+    <link href="~/template/assets/css/reset.css" rel="stylesheet">
+    <!--=== Main Style CSS ===-->
+    <link href="~/template/style.css" rel="stylesheet">
+    <!--=== Responsive CSS ===-->
+    <link href="~/template/assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body class="loader-active">
+
+    <!--== Preloader Area Start ==-->
+    <div class="preloader">
+        <div class="preloader-spinner">
+            <div class="loader-content">
+                <img src="~/template/assets/img/preloader.gif" alt="JSOFT">
+            </div>
+        </div>
+    </div>
+    <!--== Preloader Area End ==-->
+    <!--== Header Area Start ==-->
+    <header id="header-area" class="fixed-top">
+        <!--== Header Top Start ==-->
+        <div id="header-top" class="d-none d-xl-block">
+            <div class="container">
+                <div class="row">
+                    <!--== Single HeaderTop Start ==-->
+                    <div class="col-lg-3 text-left">
+                        <i class="fa fa-map-marker"></i> Av. Independencia
+                    </div>
+                    <!--== Single HeaderTop End ==-->
+                    <!--== Single HeaderTop Start ==-->
+                    <div class="col-lg-3 text-center">
+                        <i class="fa fa-mobile"></i> +1 809 999 9999
+                    </div>
+                    <!--== Single HeaderTop End ==-->
+                    <!--== Single HeaderTop Start ==-->
+                    <div class="col-lg-3 text-center">
+                        <i class="fa fa-clock-o"></i> Lun-Vie 09.00 - 17.00
+                    </div>
+                    <!--== Single HeaderTop End ==-->
+
+                </div>
+            </div>
+        </div>
+        <!--== Header Top End ==-->
+        <!--== Header Bottom Start ==-->
+        <div id="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <!--== Logo Start ==-->
+                    <div class="col-lg-4">
+                        <a href="index.html" class="logo">
+                            <img src="~/template/assets/img/logo.png" alt="JSOFT">
+                        </a>
+                    </div>
+                    <!--== Logo End ==-->
+                    <!--== Main Menu Start ==-->
+                    <div class="col-lg-8 d-none d-xl-block">
+                        <nav class="mainmenu alignright">
+                            <ul>
+                                <li class="active">
+                                    <a href="#">Home</a>
+                                    <ul>
+                                        <li><a href="index.html">Home 1</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Mantenimientos</a>
+                                    <ul>
+                                        <li>@Html.ActionLink("Tipo de Vehículo", "Index", "TipoVehiculos")</li>
+                                        <li>@Html.ActionLink("Tipo de Combustibles", "Index", "TipoCombustibles")</li>
+                                        <li>@Html.ActionLink("Clientes", "Index", "Clientes")</li>
+                                        <li>@Html.ActionLink("Empleados", "Index", "Empleados")</li>
+                                        <li>@Html.ActionLink("Marcas", "Index", "Marcas")</li>
+                                        <li>@Html.ActionLink("Modelos", "Index", "Modelos")</li>
+                                        <li>@Html.ActionLink("Vehículos", "Index", "Vehiculos")</li>
+                                        <li>@Html.ActionLink("Renta y devoluciones", "Index", "RentaDevoluciones")</li>
+                                        <li>@Html.ActionLink("Inspeccion", "Index", "Inspecciones")</li>
+                                        <partial name="_LoginPartial - Copia" />
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </nav>
+
+                    </div>
+                    <!--== Main Menu End ==-->
+                    <partial name="_CookieConsentPartial" />
+                </div>
+            </div>
+        </div>
+        <!--== Header Bottom End ==-->
+    </header>
+    <!--== Header Area End ==-->
+    <!--== Slider Area Start ==-->
+    <section id="slider-area">
+        <!--== slide Item One ==-->
+        <div class="single-slide-item overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+
+                    </div>
+                    <br /> <br /> <br />
+                    <div class="col-lg-7 text-right">
+                        <div class="display-table">
+                            <div class="display-table-cell">
+                                <div class="slider-right-text">
+                                    <h1>¡Alquile un auto hoy mismo!</h1>
+                                    <p>Montos diarios desde 500 pesos <br> +15% de descuento en clientes frecuentes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--== slide Item One ==-->
+    </section>
+    <!--== Slider Area End ==-->
+    @RenderBody()
+    <!--== About Us Area Start ==-->
+    <section id="about-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start -->
+                <div class="col-lg-12">
+                    <div class="section-title  text-center">
+                        <h2>Sobre nosotros</h2>
+                        <span class="title-line"><i class="fa fa-car"></i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <div class="row">
+                <!-- About Content Start -->
+                <div class="col-lg-6">
+                    <div class="display-table">
+                        <div class="display-table-cell">
+                            <div class="about-content">
+                                <p>
+                                    Lorem simply dummy is a texted of the printing costed and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type.
+                                </p>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi aliquid debitis optio
+                                    praesentium, voluptate repellat accusantium deserunt eius.
+                                </p>
+                                <div class="about-btn">
+                                    <a href="@Url.Action("Create","Inspecciones")">Inspeccionar auto</a>
+                                    <a href="@Url.Action("Index","Vehiculos")">Ver vehículos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About Content End -->
+                <!-- About Video Start -->
+                <div class="col-lg-6">
+                    <div class="about-video">
+                        <iframe src="https://player.vimeo.com/video/121982328?title=0&byline=0&portrait=0"></iframe>
+                    </div>
+                </div>
+                <!-- About Video End -->
+            </div>
+        </div>
+    </section>
+    <!--== About Us Area End ==-->
+    <!--== Partner Area Start ==-->
+    <div id="partner-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="partner-content-wrap">
+                        <!-- Single Partner Start -->
+                        <div class="single-partner">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <img src="~/template/assets/img/partner/partner-logo-1.png" alt="JSOFT">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Partner End -->
+                        <!-- Single Partner Start -->
+                        <div class="single-partner">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <img src="~/template/assets/img/partner/partner-logo-2.png" alt="JSOFT">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Partner End -->
+                        <!-- Single Partner Start -->
+                        <div class="single-partner">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <img src="~/template/assets/img/partner/partner-logo-3.png" alt="JSOFT">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Partner End -->
+                        <!-- Single Partner Start -->
+                        <div class="single-partner">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <img src="~/template/assets/img/partner/partner-logo-4.png" alt="JSOFT">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Partner End -->
+                        <!-- Single Partner Start -->
+                        <div class="single-partner">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <img src="~/template/assets/img/partner/partner-logo-5.png" alt="JSOFT">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Partner End -->
+                        <!-- Single Partner Start -->
+                        <div class="single-partner">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <img src="~/template/assets/img/partner/partner-logo-1.png" alt="JSOFT">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Partner End -->
+                        <!-- Single Partner Start -->
+                        <div class="single-partner">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <img src="~/template/assets/img/partner/partner-logo-4.png" alt="JSOFT">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Partner End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== Partner Area End ==-->
+    <!--== Services Area Start ==-->
+    <section id="service-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start -->
+                <div class="col-lg-12">
+                    <div class="section-title  text-center">
+                        <h2>Nuestros servicios</h2>
+                        <span class="title-line"><i class="fa fa-car"></i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+
+            <!-- Service Content Start -->
+            <div class="row">
+                <!-- Single Service Start -->
+                <div class="col-lg-4 text-center">
+                    <div class="service-item">
+
+                        <a href="@Url.Action("Index","Vehiculos")"><i class="fa fa-automobile"></i></a>
+                        <h3>REGISTRAR VEHICULO</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+                <!-- Single Service Start -->
+                <div class="col-lg-4 text-center">
+                    <div class="service-item">
+                        <a href="@Url.Action("Index","Inspecciones")"><i class="fa fa-cog"></i></a>
+
+                        <h3>INSPECCIONES</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+                <!-- Single Service Start -->
+                <div class="col-lg-4 text-center">
+                    <div class="service-item">
+                        <a href="@Url.Action("Index","RentaDevoluciones")"><i class="fa fa-credit-card"></i></a>
+                        <h3>RENTAR</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p>
+                    </div>
+                </div>
+
+                <!-- Single Service End -->
+                <!-- Single Service Start -->
+                <div class="col-lg-4 text-center">
+                    <div class="service-item">
+                        <a href="@Url.Action("Index","Clientes")"><i class="fa fa-id-card"></i></a>
+                        <h3>Gestión de clientes</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+                <!-- Single Service Start -->
+                <div class="col-lg-4 text-center">
+                    <div class="service-item">
+                        <a href="@Url.Action("Index","Empleados")"><i class="fa fa-users"></i></a>
+                        <h3>Empleados</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+                <!-- Single Service Start -->
+                <div class="col-lg-4 text-center">
+                    <div class="service-item">
+                        <a href="@Url.Action("Index","Marcas")"><i class="fa fa-trademark"></i></a>
+                        <h3>Marcas</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+            </div>
+            <!-- Service Content End -->
+        </div>
+    </section>
+    <!--== Services Area End ==-->
+    <!--== Fun Fact Area Start ==-->
+    <section id="funfact-area" class="overlay section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 col-md-12 m-auto">
+                    <div class="funfact-content-wrap">
+                        <div class="row">
+                            <!-- Single FunFact Start -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-funfact">
+                                    <div class="funfact-icon">
+                                        <i class="fa fa-smile-o"></i>
+                                    </div>
+                                    <div class="funfact-content">
+                                        <p><span class="counter">550</span>+</p>
+                                        <h4>HAPPY CLIENTS</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single FunFact End -->
+                            <!-- Single FunFact Start -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-funfact">
+                                    <div class="funfact-icon">
+                                        <i class="fa fa-car"></i>
+                                    </div>
+                                    <div class="funfact-content">
+                                        <p><span class="counter">250</span>+</p>
+                                        <h4>CARS IN STOCK</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single FunFact End -->
+                            <!-- Single FunFact Start -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-funfact">
+                                    <div class="funfact-icon">
+                                        <i class="fa fa-bank"></i>
+                                    </div>
+                                    <div class="funfact-content">
+                                        <p><span class="counter">50</span>+</p>
+                                        <h4>office in cities</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single FunFact End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--== Fun Fact Area End ==-->
+    <!--== Choose Car Area Start ==-->
+    <!--== Pricing Area Start ==-->
+    <section id="pricing-area" class="section-padding overlay">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start -->
+                <div class="col-lg-12">
+                    <div class="section-title  text-center">
+                        <h2>Only quality for clients</h2>
+                        <span class="title-line"><i class="fa fa-car"></i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <!-- Pricing Table Conatent Start -->
+            <div class="row">
+                <!-- Single Pricing Table -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="single-pricing-table">
+                        <h3>BUSINESS</h3>
+                        <h2>$ 55.99</h2>
+                        <h5>PER MONTH</h5>
+
+                        <ul class="package-list">
+                            <li>FREE VEHICLE DELIVERY</li>
+                            <li>WEDDINGS CELEBRATIONS</li>
+                            <li>FULL INSURANCE INCLUDED</li>
+                            <li>TRANSPORT ABROAD</li>
+                            <li>ALL INCLUSIVE MINI BAR</li>
+                            <li>CHAUFFER INCLUDED IN PRICE</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Single Pricing Table -->
+                <!-- Single Pricing Table -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="single-pricing-table">
+                        <h3>Trial</h3>
+                        <h2>Free</h2>
+                        <h5>PER MONTH</h5>
+
+                        <ul class="package-list">
+                            <li>FREE VEHICLE DELIVERY</li>
+                            <li>OTHER CELEBRATIONS</li>
+                            <li>FULL INSURANCE</li>
+                            <li>TRANSPORT ABROAD</li>
+                            <li>MINI BAR</li>
+                            <li>INCLUDED IN PRICE</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Single Pricing Table -->
+                <!-- Single Pricing Table -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="single-pricing-table">
+                        <h3>standard</h3>
+                        <h2>$ 35.99</h2>
+                        <h5>PER MONTH</h5>
+
+                        <ul class="package-list">
+                            <li>DELIVERY AT AIRPORT</li>
+                            <li>WEDDINGS AND OTHER</li>
+                            <li>FULL INCLUDED</li>
+                            <li>TRANSPORT ABROAD</li>
+                            <li>ALL MINI BAR</li>
+                            <li>CHAUFFER PRICE</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Single Pricing Table -->
+            </div>
+            <!-- Pricing Table Conatent End -->
+        </div>
+    </section>
+    <!--== Pricing Area End ==-->
+    <!--== Articles Area Start ==-->
+    <section id="tips-article-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start -->
+                <div class="col-lg-12">
+                    <div class="section-title  text-center">
+                        <h2>Tips and articles</h2>
+                        <span class="title-line"><i class="fa fa-car"></i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <!-- Articles Content Wrap Start -->
+            <div class="row">
+                <!-- Single Articles Start -->
+                <div class="col-lg-12">
+                    <article class="single-article">
+                        <div class="row">
+                            <!-- Articles Thumbnail Start -->
+                            <div class="col-lg-5">
+                                <div class="article-thumb">
+                                    <img src="~/template/assets/img/article/arti-thumb-1.jpg" alt="JSOFT">
+                                </div>
+                            </div>
+                            <!-- Articles Thumbnail End -->
+                            <!-- Articles Content Start -->
+                            <div class="col-lg-7">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <div class="article-body">
+                                            <h3><a href="article-details.html">Wliquam sit amet urna eullam</a></h3>
+                                            <div class="article-meta">
+                                                <a href="#" class="author">By :: <span>Admin</span></a>
+                                                <a href="#" class="commnet">Comments :: <span>10</span></a>
+                                            </div>
+
+                                            <div class="article-date">25 <span class="month">jan</span></div>
+
+                                            <p>
+                                                Wlam aiber vestibulum fringilla oremedad ipsum dolor sit amet consectetur
+                                                adipisicing elit sed doned eiusmod tempored incididunt ut labore et
+                                                dolore magna aliquaa enimd ad minim veniad.
+                                            </p>
+
+                                            <a href="article-details.html" class="readmore-btn">
+                                                Read More <i class="fa fa-long-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Articles Content End -->
+                        </div>
+                    </article>
+                </div>
+                <!-- Single Articles End -->
+
+            </div>
+            </article>
+        </div>
+        <!-- Single Articles End -->
+        </div>
+        <!-- Articles Content Wrap End -->
+        </div>
+    </section>
+    <!--== Articles Area End ==-->
+    <!--== Footer Area Start ==-->
+    <section id="footer-area">
+        <!-- Footer Widget Start -->
+        <div class="footer-widget-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget Start -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-footer-widget">
+                            <h2>About Us</h2>
+                            <div class="widget-body">
+                                <img src="assets/img/logo.png" alt="JSOFT">
+                                <p>
+                                    Lorem ipsum dolored is a sit ameted consectetur adipisicing elit. Nobis magni
+                                    assumenda distinctio debitis, eum fuga fugiat error reiciendis.
+                                </p>
+
+                                <div class="newsletter-area">
+                                    <form action="index.html">
+                                        <input type="email" placeholder="Subscribe Our Newsletter">
+                                        <button type="submit" class="newsletter-btn"><i class="fa fa-send"></i></button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget End -->
+                    <!-- Single Footer Widget Start -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-footer-widget">
+                            <h2>Recent Posts</h2>
+                            <div class="widget-body">
+                                <ul class="recent-post">
+                                    <li>
+                                        <a href="#">
+                                            Hello Bangladesh!
+                                            <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Lorem ipsum dolor sit amet
+                                            <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Hello Bangladesh!
+                                            <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            consectetur adipisicing elit?
+                                            <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget End -->
+                    <!-- Single Footer Widget Start -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-footer-widget">
+                            <h2>get touch</h2>
+                            <div class="widget-body">
+                                <p>
+                                    Lorem ipsum doloer sited amet, consectetur adipisicing elit. nibh auguea, scelerisque
+                                    sed
+                                </p>
+
+                                @*<ul class="get-touch">
+                                    <li><i class="fa fa-map-marker"></i> 800/8, Kazipara, Dhaka</li>
+                                    <li><i class="fa fa-mobile"></i> +880 01 86 25 72 43</li>
+                                    <li><i class="fa fa-envelope"></i> kazukamdu83@gmail.com</li>
+                                </ul>*@
+                                <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">
+                                    Show
+                                    Location
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget End -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer Widget End -->
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved = kazukamdu83@gmail.com | This webpage
+                            is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Shirley Contreras 2018*-*1125
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
+    </section>
+    <!--== Footer Area End ==-->
+    <!--== Scroll Top Area Start ==-->
+    <div class="scroll-top">
+        <img src="~/template/assets/img/scroll-top.png" alt="JSOFT">
+    </div>
+    <!--== Scroll Top Area End ==-->
+    <!--=======================Javascript============================-->
+    <!--=== Jquery Min Js ===-->
+    <script src="~/template/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="~/template/assets/js/jquery-migrate.min.js"></script>
+    <script src="~/template/assets/js/popper.min.js"></script>
+    <script src="~/template/assets/js/bootstrap.min.js"></script>
+    <!--=== Gijgo Min Js ===-->
+    <script src="~/template/assets/js/plugins/gijgo.js"></script>
+    <!--=== Vegas Min Js ===-->
+    <script src="~/template/assets/js/plugins/vegas.min.js"></script>
+    <!--=== Isotope Min Js ===-->
+    <script src="~/template/assets/js/plugins/isotope.min.js"></script>
+    <!--=== Owl Caousel Min Js ===-->
+    <script src="~/template/assets/js/plugins/owl.carousel.min.js"></script>
+    <!--=== Waypoint Min Js ===-->
+    <script src="~/template/assets/js/plugins/waypoints.min.js"></script>
+    <!--=== CounTotop Min Js ===-->
+    <script src="~/template/assets/js/plugins/counterup.min.js"></script>
+    <!--=== YtPlayer Min Js ===-->
+    <script src="~/template/assets/js/plugins/mb.YTPlayer.js"></script>
+    <!--=== Magnific Popup Min Js ===-->
+    <script src="~/template/assets/js/plugins/magnific-popup.min.js"></script>
+    <!--=== Slicknav Min Js ===-->
+    <script src="~/template/assets/js/plugins/slicknav.min.js"></script>
+
+    <!--=== Mian Js ===-->
+    <script src="~/template/assets/js/main.js"></script>
+
+</body>
+
+</html>
